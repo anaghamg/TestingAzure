@@ -1,0 +1,10 @@
+^D:\QTPROJECTS\TESTCMAKE0\SOURCE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/QTProjects/TestCMake0/source -BD:/QTProjects/TestCMake0/bin --check-stamp-file D:/QTProjects/TestCMake0/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

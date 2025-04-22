@@ -1,0 +1,7 @@
+﻿  Automatic MOC and UIC for target TestCMake0
+  Building Custom Rule D:/QTProjects/TestCMake0/source/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  main.cpp
+  testwidget.cpp
+  Generating Code...
+  TestCMake0.vcxproj -> D:\QTProjects\TestCMake0\bin\Debug\TestCMake0.exe

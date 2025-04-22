@@ -1,0 +1,10 @@
+^D:\QTPROJECTS\TESTCMAKE0\BIN\CMAKEFILES\7A870AFE95823953279AC263CE9C0A78\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/QTProjects/TestCMake0/source -BD:/QTProjects/TestCMake0/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/QTProjects/TestCMake0/bin/TestCMake0.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
